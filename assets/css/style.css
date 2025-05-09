@@ -443,6 +443,11 @@ a {
     margin-top: 70px;
 }
 
+.member-item:hover .member-item__thumb {
+    transform: scale(1.1); /* Để cho khi hover thì nó sẽ phóng to ảnh */
+    transition: 0.25s;
+}
+
 .member-item__img-bg {
     padding-top: 28px;
     border-radius: 6px;
